@@ -1,8 +1,124 @@
 <html>
 	<head>
-		<meta http-equiv="refresh" content="0 ; url=http://opendungeons.sf.net">
-         	<script type="text/javascript">
-            		window.location.href = "http://opendungeons.sf.net"
-		</script>
+		<title>Opendungeons' Official Project Website</title>
+		<link type="text/css" rel="stylesheet" href="assets/css/reset.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/colors.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/css3.css"/>
 	</head>
+	<body>
+		<div id="wrapper">
+
+			<header>
+				<a href="http://opendungeons.github.io">
+					<img id="logo" src="assets/img/logo-opendungeons.svg"/>
+					<h1>OpenDungeons</h1>
+				</a>
+			</header>
+			<section id="content">
+				<h2><a name="news">News</a></h2>
+			<h3>OpenDungeons 0.4.9 release</h3>
+			<p>Ho ho ho, dear awful Keepers and fearful Keeperesses,</p>
+
+			<p>We wish you a merry, jolly and vicious torture time with you dreadful minions. And to help you process the knight's laughable will into madness with more ease and pleasure, we are utterly satisfied to introduce you to the new version of our favourite dark magic tool. :)
+			<br />Yes, <a href="#downloads">OpenDungeons 0.4.9</a> is now unleashed!</p>
+
+			<p>General changelog:</p>
+			<ul>
+				<li>Multiplayer support for demons' sake!!</li>
+				<li>Rock-solid core gameplay!</li>
+				<li>Very moddable levels and creatures!</li>
+				<li>New rooms!</li>
+				<li>A functional AI that can win!</li>
+				<li>Traps!</li>
+				<li>New revamped UI!</li>
+				<li>More efficient workers and a good battle logic!</li>
+				<li>The game is very playable already! :-D</li>
+				<li>More at <a href="https://github.com/OpenDungeons/OpenDungeons/issues/9">the milestone description on GitHub</a>.</li>
+			</ul>
+
+			<a href="media/images/OD-0.4.8-0.4.9.png" target="_blank"><img src="media/images/OD-0.4.8-0.4.9.png" width="750px" height="250px"/></a>
+			<!-- Some comparative pics/video between 0.4.8 and 0.4.9: -->
+			<!--	0.4.8:
+				http://i.ytimg.com/vi/fQw5YqMBnHE/maxresdefault.jpg
+				http://www.youtube.com/watch?v=DzY5Y6vBo7k
+
+				0.4.9:
+				viewtopic.php?f=35&t=5961
+				http://youtu.be/Mv_eu3-AdYs -->
+
+			<p><em>So, what has happened all this year already?</em></p>
+
+			<p>To answer simply, the project had reached a stall and to make it alive again, the OD artists requested a new Windows 32 snapshot to see what they could improve.
+			Bertram first answered the call and tried for a few weeks to make it build and run again on Windows. Even if that guy had a hard time to make it compile at the time (and was rather a noob with such deps), it permitted to point out certain problems, such as the need to upgrade the dependencies and report certain compilation problems upstream.
+			Paul and him then paired on this one and a first Win32 snapshot went online after a month or two.
+			<br />Then, by getting familiar with the code and seeing it run, Bertram couldn't leave the project like that and started proposing patches to fix this and that, helped by oln, Paul and nido at the time.
+			<br />But the actual momentum happened with the arrival of hwoarangmy, and soon after with Akien, who both helped coordinating the project, and for hwoarangmy, recoded half of it (and more changes to it are incoming). ;-)
+			<br />While Danimal was improving the game models, eugeneloza was on the new minions beds, and Akien was on packaging stuff and Bertram was mainly on upgrading the GUI.
+			<br />A lot of features, bugfixes and cleanups happened in very little time, when you think about it.</p>
+
+			<p>Let's take a few lines to thank the cool team that gathered here and poured a lot of blood into the development evil cup to produce this. Hopefully, they will never realize all the foolishness it is to think they're leading the project while everybody knows Danimal is secretly pulling all the strings.
+			<br />Development didn't go without brain damages, though. Bertram developed an unexplainable and pathetic fear for Big Knights, eugeneloza had to use his big voice, and Akien even had to start learning how to code.</p>
+
+			<p>But a lot is also planned for 0.5.0 with almost completed addition of an actual Fog of war thanks to hwoarangmy, some work on the GUI, on the materials, on more rooms, on user settings support, etc.
+			<br />If you're simply curious or better if you wanna help, test, or document the next version, feel free to have a look at the <a href="https://github.com/OpenDungeons/OpenDungeons/issues">issues on GitHub</a>, and get in touch!</p>
+
+			<p>Some crazy guy willing to work on improving the visuals would be perfect but we'll always find a use for you, be it on testing, or down below the dungeon, tortured with some lava. ;-></p>
+
+			<p>Have a dreadful year, my pathetic minions.</p>
+
+			<h2><a name="downloads">Downloads</a></h2>
+			<p>Below you can find download links to the files.</p>
+			<ul>
+				<li>
+					<a href="https://sourceforge.net/projects/opendungeons/files/opendungeons-0.4.9.tar.xz/download" target="_blank">OpenDungeons 0.4.9 (Source code)</a>
+				</li>
+				<li>
+					<a href="https://sourceforge.net/projects/opendungeons/files/OpenDungeons-0.4.9-Win32.zip/download" target="_blank">OpenDungeons 0.4.9 (Windows 32bit binary)</a>
+				</li>
+				<li>
+					<a href="https://sourceforge.net/projects/opendungeons/files/opendungeons-0.4.9-linux-i586.tar.xz/download" target="_blank">OpenDungeons 0.4.9 (Linux 32bit binary)</a>
+				</li>
+				<li>
+					<a href="https://sourceforge.net/projects/opendungeons/files/opendungeons-0.4.9-linux-x86_64.tar.xz/download" target="_blank">OpenDungeons 0.4.9 (Linux 64bit binary)</a>
+				</li>
+			</ul>
+			<p>You can also find <a href="https://sourceforge.net/projects/opendungeons/files/Dev%20Snapshots/" target="_blank_">development builds for Windows</a> of our upcoming 0.5.0 release.</p>
+			<h3>Linux packages</h3>
+			<p>OpenDungeons is currently available in package repositories for some Linux distributions. Feel free to contact us if your package is not in the list.</p>
+			<ul>
+				<li>
+					Mageia 5: <a href="http://mageia.madb.org/package/show/release/cauldron/application/0/name/opendungeons" target="_blank">Core Release</a> official repository.
+				</li>
+				<li>
+					Ubuntu: <a href="http://www.playdeb.net/game/OpenDungeons" target="_blank">PlayDeb</a> third-party repository.
+				</li>
+				<li>
+					<a href="https://lutris.net/games/opendungeons" target="_blank">Lutris</a>: cross-distro gaming platform.
+				</li>
+			</ul>
+			<h2><a name="contact">Contact</a></h2>
+			<p>You can contact use by following means:</p>
+			<ul>
+				<li><strong>IRC:</strong> <a href="http://webchat.freenode.net/?channels=opendungeons">irc.freenode.net#opendungeons</a></li>
+				<li><strong>Forums:</strong> <a href="http://forum.freegamedev.net/viewforum.php?f=15">forum.freegamedev.net</a></li>
+			</ul>
+			<h2><a name="about">About</a></h2>
+			<p>OpenDungeons is an open source, real time strategy game sharing game elements with the Dungeon Keeper series and Evil Genius. Players build an underground dungeon which is inhabited by creatures. Players fight each other for control of the underground by indirectly commanding their creatures, directly casting spells in combat, and luring enemies into sinister traps. </p>
+		
+			</section>
+			<footer>
+				<p>copyleft <a href="#">OpenDungeons Project</a></p>
+			</footer>
+		</div>
+		<nav id="mainmenu">
+			<ul class="menu">
+				<li><a href="#news">News</a></li>
+				<li><a href="#downloads">Downloads</a></li>
+				<li><a href="http://forum.freegamedev.net/viewforum.php?f=15" target="_blank">Forum</a></li>
+				<li><a >Wiki</a></li>
+				<li><a href="#about">The Project</a></li>
+			</ul>
+		</nav>
+	</body>
 </html>
