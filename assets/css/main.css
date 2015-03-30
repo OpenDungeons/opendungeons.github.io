@@ -10,6 +10,7 @@ a{
 
 body{
 	padding-top:30px;
+	font-family:"FreeSans",Helvetica,Arial,sans-serif;
 }
 
 div{
@@ -22,12 +23,14 @@ h1{
 
 h2{
 	font-size:20pt;
+	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	margin-top:10px;
 	margin-bottom:10px;
 }
 
 h3{
 	font-size:12pt;
+	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	margin-bottom:5px;
 }
 
@@ -71,6 +74,7 @@ nav#mainmenu ul li{
 nav#mainmenu ul li a{
 	font-size:12pt;
 	font-weight:bold;
+	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	padding:3px 10px;
 	border-right-style:solid;
 	border-right-width:1px;
