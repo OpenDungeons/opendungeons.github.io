@@ -1,5 +1,12 @@
 *{
 	margin:0;
 	padding:0;
+	border:0;
 	text-decoration:none;
+	font-size:100%;
+}
+
+html{
+	color:#000000;
+	background-color:#ffffff;
 }

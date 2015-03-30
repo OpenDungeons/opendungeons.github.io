@@ -1,0 +1,61 @@
+*{
+	color:#ffffff;
+}
+
+a{
+	color:#ff0000;
+}
+
+a:hover{
+	color:#ff9900;
+}
+
+body{
+	background:#000000 url(../img/background-opendungeons.svg) no-repeat center center fixed;
+	background-size:100% 100%;
+}
+
+h1,h2,h2,h3,h4{
+	color:#ff0000;
+}
+
+p{
+	color:#ffffff;
+}
+
+
+
+
+
+
+/*main menu*/
+nav#mainmenu{
+	border-bottom-color:#550000;
+	background:#550000 url(../img/gradient-menu-background-opendungeons.png) repeat-x;
+}
+
+nav#mainmenu ul li{
+        
+}
+
+nav#mainmenu ul li a{
+        border-right-color:#ffffff;
+	color:#ffffff;
+}
+
+nav#mainmenu ul li a:hover{
+	color:#ff0000;
+	background:url(../img/transparent-black-background-opendungeons.png) repeat;
+	text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
+}
+
+
+/*page content*/
+section#content{
+	background:url(../img/transparent-black-background-opendungeons.png) repeat;
+}
+
+
+
+
+
