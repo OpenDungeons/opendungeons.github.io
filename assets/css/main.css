@@ -24,14 +24,15 @@ h1{
 h2{
 	font-size:20pt;
 	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
-	margin-top:10px;
-	margin-bottom:10px;
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 h3{
 	font-size:12pt;
 	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
-	margin-bottom:5px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 li{
@@ -39,7 +40,9 @@ li{
 }
 
 p{
+	text-align:justify;
 	margin-left:20px;
+	margin-bottom:5px;
 }
 
 ul{
@@ -86,6 +89,7 @@ nav#mainmenu ul li a{
 div#wrapper{
 	width:970px;
 	margin:0 auto;
+	padding-bottom: 20px;
 }
 
 
@@ -106,9 +110,13 @@ header img#logo{
 
 /*page content*/
 section#content{
-	padding:10px;
+	padding:10px 50px;
 }
 
+section#content img{
+	display: block;
+	margin: 10px auto;
+}
 
 
 
