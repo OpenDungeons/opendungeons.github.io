@@ -31,21 +31,56 @@ p{
 /*main menu*/
 nav#mainmenu{
 	border-bottom-color:#550000;
-	background:#550000 url(../img/gradient-menu-background-opendungeons.png) repeat-x;
+	background:#550000 url(../img/rocky-menu-background-opendungeons.png) repeat-x;
 }
 
-nav#mainmenu ul li{
-        
+nav#mainmenu ul{
+    border-right-color:#000000;
+    border-left-color:#997755; 
 }
 
 nav#mainmenu ul li a{
-        border-right-color:#ffffff;
+    border-right-color:#997755;
+    border-left-color:#000000;
+	color:#ffffff;
+}
+
+nav#mainmenu ul li a div#news-icon{
+	background:url(../img/icon-news-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a div#downloads-icon{
+	background:url(../img/icon-downloads-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a div#forum-icon{
+	background:url(../img/icon-forum-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a div#wiki-icon{
+	background:url(../img/icon-wiki-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a div#chat-icon{
+	background:url(../img/icon-chat-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a div#about-icon{
+	background:url(../img/icon-about-menu.png) no-repeat;
+}
+
+nav#mainmenu ul li a h2{
 	color:#ffffff;
 }
 
 nav#mainmenu ul li a:hover{
 	color:#ff0000;
 	background:url(../img/transparent-black-background-opendungeons.png) repeat;
+	text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
+}
+
+nav#mainmenu ul li a:hover h2{
+	color:#ff0000;
 	text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
 }
 

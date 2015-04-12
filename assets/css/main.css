@@ -9,7 +9,7 @@ a{
 }
 
 body{
-	padding-top:30px;
+	padding-top:50px;
 	font-family:"FreeSans",Helvetica,Arial,sans-serif;
 }
 
@@ -55,8 +55,7 @@ ul{
 /*main menu*/
 nav#mainmenu{
 	width:100%;
-	border-bottom-style:solid;
-	border-bottom-width:3px;
+	height:50px;
 	position:fixed;
 	top:0;
 	left:0;
@@ -65,7 +64,8 @@ nav#mainmenu{
 nav#mainmenu ul{
 	width:970px;
 	margin:0 auto;
-
+	border-style:solid;
+	border-width:0px 1px;
 	font-size:0;
 }
 
@@ -75,13 +75,30 @@ nav#mainmenu ul li{
 }
 
 nav#mainmenu ul li a{
-	font-size:12pt;
+	display:inline-block;
+	height:40px;
+	font-size:10px;
 	font-weight:bold;
-	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	padding:3px 10px;
-	border-right-style:solid;
-	border-right-width:1px;
+	border-style:solid;
+	border-width:0px 1px;
 	vertical-align:middle;
+}
+
+nav#mainmenu ul li a h2{
+	display:block;
+	margin:0;
+	padding:0;
+	height:14px;
+	font-size:12pt;
+	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
+}
+
+nav#mainmenu ul li a div.icon{
+	display:block;
+	margin:0px auto;
+	height:30px;
+	width:30px;
 }
 
 /*wrapper*/
