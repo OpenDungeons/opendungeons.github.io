@@ -30,8 +30,7 @@ p{
 
 /*main menu*/
 nav#mainmenu{
-	border-bottom-color:#550000;
-	background:#550000 url(../img/rocky-menu-background-opendungeons.png) repeat-x;
+	background:url(../img/rocky-menu-background-opendungeons.png) repeat-x;
 }
 
 nav#mainmenu ul{

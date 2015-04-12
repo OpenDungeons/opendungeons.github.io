@@ -9,7 +9,7 @@ a{
 }
 
 body{
-	padding-top:50px;
+	padding-top:60px;
 	font-family:"FreeSans",Helvetica,Arial,sans-serif;
 }
 
@@ -55,7 +55,7 @@ ul{
 /*main menu*/
 nav#mainmenu{
 	width:100%;
-	height:50px;
+	height:70px;
 	position:fixed;
 	top:0;
 	left:0;
@@ -76,7 +76,7 @@ nav#mainmenu ul li{
 
 nav#mainmenu ul li a{
 	display:inline-block;
-	height:40px;
+	height:50px;
 	font-size:10px;
 	font-weight:bold;
 	padding:3px 10px;
