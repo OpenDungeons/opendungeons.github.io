@@ -45,6 +45,10 @@ p{
 	margin-bottom:5px;
 }
 
+s{
+    text-decoration: line-through;
+}
+
 ul{
 	margin:10px;
 }
