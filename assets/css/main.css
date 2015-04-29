@@ -29,10 +29,14 @@ h2{
 }
 
 h3{
-	font-size:12pt;
+	font-size:14pt;
 	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	margin-top:10px;
 	margin-bottom:10px;
+}
+
+hr{
+	height:25px;
 }
 
 li{

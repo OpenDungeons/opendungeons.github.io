@@ -19,6 +19,11 @@ h1,h2,h2,h3,h4{
 	color:#ff0000;
 }
 
+hr{
+	background:url(../img/separator.svg) no-repeat center center;
+	background-size: auto 100%;
+}
+
 p{
 	color:#ffffff;
 }
