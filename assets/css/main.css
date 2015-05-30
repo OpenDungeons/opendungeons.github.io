@@ -120,16 +120,11 @@ div#wrapper{
 
 /*header*/
 header{
-	height:200px;
-	position:relative;
+	height:150px;
 }
 
 header img#logo{
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-right:-50%;
-	transform:translate(-50%,-50%);
+	height:150px;
 }
 
 
