@@ -1,7 +1,7 @@
 /*elements*/
 
 *{
-
+	font-family:"FreeSans",Helvetica,Arial,sans-serif;
 }
 
 a{
@@ -46,7 +46,9 @@ li{
 p{
 	text-align:justify;
 	margin-left:20px;
-	margin-bottom:5px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:15px;
 }
 
 s{
@@ -141,4 +143,21 @@ section#content img{
 
 
 
-/**/
+/*Headings*/
+h5.li{
+	margin-left:50px;
+	display:list-item;
+	list-style-type:disc;
+}
+
+h3 span.date{
+	padding:5px;
+	font-size:10pt;
+	float:right;
+	font-style:italic;
+}
+
+h3{
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
