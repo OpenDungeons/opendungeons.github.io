@@ -1,36 +1,24 @@
 /*elements*/
-
-*{
-	font-family:"FreeSans",Helvetica,Arial,sans-serif;
-}
-
 a{
 
 }
 
 body{
 	padding-top:60px;
-	font-family:"FreeSans",Helvetica,Arial,sans-serif;
 }
 
 div{
 
 }
 
-h1{
-	font-size:50pt;
-}
+
 
 h2{
-	font-size:20pt;
-	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	margin-top:20px;
 	margin-bottom:20px;
 }
 
 h3{
-	font-size:14pt;
-	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 	margin-top:10px;
 	margin-bottom:10px;
 }
@@ -76,7 +64,6 @@ nav#mainmenu ul{
 	margin:0 auto;
 	border-style:solid;
 	border-width:0px 1px;
-	font-size:0;
 }
 
 nav#mainmenu ul li{
@@ -87,8 +74,6 @@ nav#mainmenu ul li{
 nav#mainmenu ul li a{
 	display:inline-block;
 	height:50px;
-	font-size:10px;
-	font-weight:bold;
 	padding:3px 10px;
 	border-style:solid;
 	border-width:0px 1px;
@@ -100,8 +85,6 @@ nav#mainmenu ul li a h2{
 	margin:0;
 	padding:0;
 	height:14px;
-	font-size:12pt;
-	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
 }
 
 nav#mainmenu ul li a div.icon{
@@ -152,9 +135,7 @@ h5.li{
 
 h3 span.date{
 	padding:5px;
-	font-size:10pt;
 	float:right;
-	font-style:italic;
 }
 
 h3{
