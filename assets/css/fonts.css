@@ -1,0 +1,50 @@
+/* Embedded Fonts
+@font-face {
+	font-family: tudor-rose;
+	src: local(tudor-rose), url('../fonts/tudor-rose.otf') format('opentype');
+}
+*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+*{
+	font-family:"FreeSans","Liberation Sans",Helvetica,Arial,sans-serif;
+}
+
+body{
+	font-family:"FreeSans",Helvetica,Arial,sans-serif;
+}
+
+h1{
+	font-size:50pt;
+}
+
+h2{
+	font-size:20pt;
+	font-family:"Liberation Sans","Trebuchet MS","Luxi Sans","Helvetica","Arial","sans-serif";
+}
+
+h3{
+	font-size:14pt;
+	font-family:"Liberation Sans","Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
+}
+
+nav#mainmenu ul li a{
+	font-size:10px;
+	font-weight:bold;
+}
+
+nav#mainmenu ul{
+	font-size:0;
+}
+
+
+nav#mainmenu ul li a h2{
+	font-size:12pt;
+	font-family:"Trebuchet MS","Luxi Sans",Helvetica,Arial,sans-serif;
+}
+
+h3 span.date{
+	font-size:10pt;
+	font-style:italic;
+}
