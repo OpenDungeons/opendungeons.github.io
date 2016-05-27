@@ -94,7 +94,9 @@ section#content{
 	background:url(../img/transparent-black-background-opendungeons.png) repeat;
 }
 
-
-
+footer p{
+	background-color:#222222;
+	border-color:#999999;
+}
 
 
