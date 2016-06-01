@@ -1,0 +1,15 @@
+article.news-item{
+	border: 100px solid transparent;
+	 /* Safari */
+    -webkit-border-image: url(../img/opendungeons_golden_border.png) 100 round;
+    /* Opera */
+    -o-border-image: url(../img/opendungeons_golden_border.png) 100 round; 
+    /* firefox */
+    -moz-border-image: url(../img/opendungeons_golden_border.png) 100 round;
+    /* Modern browsers */
+    border-image: url(../img/opendungeons_golden_border.png) 100 round;
+}
+
+footer p{
+	border-radius:10px;
+}
