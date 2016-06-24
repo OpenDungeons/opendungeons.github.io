@@ -1,31 +1,31 @@
 *{
-	color:#ffffff;
+    color:#ffffff;
 }
 
 a{
-	color:#ff0000;
+    color:#ff0000;
 }
 
 a:hover{
-	color:#ff9900;
+    color:#ff9900;
 }
 
 body{
-	background:#000000 url(../img/background-opendungeons.svg) no-repeat center center fixed;
-	background-size:100% 100%;
+    background:#000000 url(../img/background-opendungeons.svg) no-repeat center center fixed;
+    background-size:100% 100%;
 }
 
 h1,h2,h2,h3,h4{
-	color:#ff0000;
+    color:#ff0000;
 }
 
 hr{
-	background:url(../img/separator.svg) no-repeat center center;
-	background-size: auto 100%;
+    background:url(../img/separator.svg) no-repeat center center;
+    background-size: auto 100%;
 }
 
 p{
-	color:#ffffff;
+    color:#ffffff;
 }
 
 
@@ -35,7 +35,7 @@ p{
 
 /*main menu*/
 nav#mainmenu{
-	background:url(../img/rocky-menu-background-opendungeons.png) repeat-x;
+    background:url(../img/rocky-menu-background-opendungeons.png) repeat-x;
 }
 
 nav#mainmenu ul{
@@ -46,57 +46,57 @@ nav#mainmenu ul{
 nav#mainmenu ul li a{
     border-right-color:#997755;
     border-left-color:#000000;
-	color:#ffffff;
+    color:#ffffff;
 }
 
 nav#mainmenu ul li a div#news-icon{
-	background:url(../img/icon-news-menu.png) no-repeat;
+    background:url(../img/icon-news-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a div#downloads-icon{
-	background:url(../img/icon-downloads-menu.png) no-repeat;
+    background:url(../img/icon-downloads-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a div#forum-icon{
-	background:url(../img/icon-forum-menu.png) no-repeat;
+    background:url(../img/icon-forum-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a div#wiki-icon{
-	background:url(../img/icon-wiki-menu.png) no-repeat;
+    background:url(../img/icon-wiki-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a div#chat-icon{
-	background:url(../img/icon-chat-menu.png) no-repeat;
+    background:url(../img/icon-chat-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a div#about-icon{
-	background:url(../img/icon-about-menu.png) no-repeat;
+    background:url(../img/icon-about-menu.png) no-repeat;
 }
 
 nav#mainmenu ul li a h2{
-	color:#ffffff;
+    color:#ffffff;
 }
 
 nav#mainmenu ul li a:hover{
-	color:#ff0000;
-	background:url(../img/transparent-black-background-opendungeons.png) repeat;
-	text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
+    color:#ff0000;
+    background:url(../img/transparent-black-background-opendungeons.png) repeat;
+    text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
 }
 
 nav#mainmenu ul li a:hover h2{
-	color:#ff0000;
-	text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
+    color:#ff0000;
+    text-shadow: 3px 3px 5px #ffffff, -3px -3px 5px #ffffff;
 }
 
 
 /*page content*/
 section#content{
-	background:url(../img/transparent-black-background-opendungeons.png) repeat;
+    background:url(../img/transparent-black-background-opendungeons.png) repeat;
 }
 
 footer p{
-	background-color:#222222;
-	border-color:#999999;
+    background-color:#222222;
+    border-color:#999999;
 }
 
 
