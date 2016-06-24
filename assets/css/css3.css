@@ -1,4 +1,4 @@
-article.news-item{
+.golden-bordered-plate{
     border: 55px solid transparent;
     /* Safari */
     -webkit-border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
@@ -8,6 +8,7 @@ article.news-item{
     -moz-border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
     /* Modern browsers */
     border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
+    border-image-outset:20px;
 }
 
 footer p{

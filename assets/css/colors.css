@@ -90,7 +90,7 @@ nav#mainmenu ul li a:hover h2{
 
 
 /*page content*/
-section#content{
+.golden-bordered-plate{
     background:url(../img/transparent-black-background-opendungeons.png) repeat;
 }
 
