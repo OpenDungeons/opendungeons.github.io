@@ -1,13 +1,13 @@
 article.news-item{
-	border: 100px solid transparent;
-	 /* Safari */
-    -webkit-border-image: url(../img/opendungeons_golden_border.png) 100 round;
+    border: 55px solid transparent;
+    /* Safari */
+    -webkit-border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
     /* Opera */
-    -o-border-image: url(../img/opendungeons_golden_border.png) 100 round; 
+    -o-border-image: url(../img/opendungeons_golden_border.png) 55 55 round; 
     /* firefox */
-    -moz-border-image: url(../img/opendungeons_golden_border.png) 100 round;
+    -moz-border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
     /* Modern browsers */
-    border-image: url(../img/opendungeons_golden_border.png) 100 round;
+    border-image: url(../img/opendungeons_golden_border.png) 55 55 round;
 }
 
 footer p{
